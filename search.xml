@@ -4,17 +4,23 @@
   
     
     <entry>
-      <title>开站大吉！！！</title>
-      <link href="/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/"/>
-      <url>/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/</url>
+      <title>记录一下利用Hexo和安知鱼建站所遇到的问题</title>
+      <link href="/2023/11/10/Hexo%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
+      <url>/2023/11/10/Hexo%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="极光小站于2023年11月10日成功建立"><a href="#极光小站于2023年11月10日成功建立" class="headerlink" title="极光小站于2023年11月10日成功建立"></a><strong>极光小站于2023年11月10日成功建立</strong></h1><p>经过不懈的努力和<del>安知鱼主题的帮助</del>，成功建立了本站！！</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="此文章将长期更新以记录所遇到的问题"><a href="#此文章将长期更新以记录所遇到的问题" class="headerlink" title="此文章将长期更新以记录所遇到的问题"></a><strong>此文章将长期更新以记录所遇到的问题</strong></h1><ul><li><h2 id="2023-11-10"><a href="#2023-11-10" class="headerlink" title="2023.11.10"></a>2023.11.10</h2></li></ul><p>在设置<code>index_img</code>，发现<code>index_img: xxxxxx</code>并没有起作用，查看注释发现<code>&quot;background: url() top / cover no-repeat&quot;</code>，所以要设置成<code>index_img: &quot;background: url(xxxxxxx)&quot;</code>才行**(两边的引号一定要加！)**</p><p>修改后就可以实现以下效果~~~<img src="http://118.89.93.110:5244/d/Onedrive-MSFT/%E5%AE%89%E8%A3%85%E5%8C%85/%E5%9B%BE%E5%BA%8A/hexoindex.png" alt="效果图"></p><p>但与此同时发现<strong>背景图并不能随着窗口大小适应</strong>，因此我在使用垂直标签栏的情况下，图片中心发生了<strong>偏移</strong>，又空了研究一下能不能直接在html里面改..</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 学习日志 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> 公告 </tag>
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -23,13 +29,25 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2023/11/09/hello-world/"/>
-      <url>/2023/11/09/hello-world/</url>
+      <title>开站大吉！！！</title>
+      <link href="/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/"/>
+      <url>/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="极光小站于2023年11月10日成功建立"><a href="#极光小站于2023年11月10日成功建立" class="headerlink" title="极光小站于2023年11月10日成功建立"></a><strong>极光小站于2023年11月10日成功建立</strong></h1><p>经过不懈的努力和<del>安知鱼主题的帮助</del>，成功建立了本站！！</p>]]></content>
       
       
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
+            
+        </tags>
       
     </entry>
     
