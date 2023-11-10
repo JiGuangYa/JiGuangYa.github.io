@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>开站大吉！！！</title>
-      <link href="/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/"/>
-      <url>/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/</url>
-      
-        <content type="html"><![CDATA[<h1 id="极光小站于2023年11月10日成功建立"><a href="#极光小站于2023年11月10日成功建立" class="headerlink" title="极光小站于2023年11月10日成功建立"></a><strong>极光小站于2023年11月10日成功建立</strong></h1><p>经过不懈的努力和<del>安知鱼主题的帮助</del>，成功建立了本站！！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 生活 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 公告 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>记录一下利用Hexo和安知鱼建站所遇到的问题</title>
       <link href="/2023/11/10/Hexo%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/"/>
       <url>/2023/11/10/Hexo%E5%BB%BA%E7%AB%99%E8%AE%B0%E5%BD%95/</url>
@@ -46,6 +21,25 @@
         <tags>
             
             <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>开站大吉！！！</title>
+      <link href="/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/"/>
+      <url>/2023/11/10/%E5%BC%80%E7%AB%99%E5%A4%A7%E5%90%89/</url>
+      
+        <content type="html"><![CDATA[<h1 id="极光小站于2023年11月10日成功建立"><a href="#极光小站于2023年11月10日成功建立" class="headerlink" title="极光小站于2023年11月10日成功建立"></a><strong>极光小站于2023年11月10日成功建立</strong></h1><p>经过不懈的努力和<del>安知鱼主题的帮助</del>，成功建立了本站！！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 公告 </tag>
             
         </tags>
       
