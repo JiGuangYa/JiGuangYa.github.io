@@ -12,6 +12,6 @@ https://极光.cn/about/index.html
 https://极光.cn/music/index.html
 https://极光.cn/json/music.json
 https://极光.cn/
-https://极光.cn/tags/%E5%85%AC%E5%91%8A/
 https://极光.cn/tags/Hexo/
+https://极光.cn/tags/%E5%85%AC%E5%91%8A/
 https://极光.cn/categories/%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97/
