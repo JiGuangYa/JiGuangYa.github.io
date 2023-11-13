@@ -1,1 +1,1 @@
-var posts=["2023/Hexo建站记录/","2023/外挂标签/","2023/开站大吉/","2023/自建图库/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
+var posts=["2023/Hexo建站记录/","2023/外挂标签-JiGuang-TB/","2023/外挂标签/","2023/自建图库/","2023/开站大吉/"];function toRandomPost(){pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);};
