@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2023/Ubuntu%E5%92%8CWindows%E6%97%B6%E9%97%B4/"/>
+      <url>/2023/Ubuntu%E5%92%8CWindows%E6%97%B6%E9%97%B4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="解决windows10和ubuntu双系统切换时Windows时间不对的问题"><a href="#解决windows10和ubuntu双系统切换时Windows时间不对的问题" class="headerlink" title="解决windows10和ubuntu双系统切换时Windows时间不对的问题"></a>解决windows10和ubuntu双系统切换时Windows时间不对的问题</h1><blockquote><p>本文源自：<a href="https://blog.csdn.net/JustYesterday407/article/details/123378534?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170010764316800222854507%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=170010764316800222854507&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-123378534-null-null.142^v96^pc_search_result_base1&amp;utm_term=ubuntu%20windows%20%E6%97%B6%E9%97%B4&amp;spm=1018.2226.3001.4187">CSDN</a></p></blockquote><h2 id="方法1："><a href="#方法1：" class="headerlink" title="方法1："></a>方法1：</h2><p>1.在Ubuntu里面改（比较快捷，推荐）</p><p>先在ubuntu下更新一下时间，确保时间无误：</p><pre><code>sudo apt-get install ntpdatesudo ntpdate time.windows.com</code></pre><p>然后将时间更新到硬件上：</p><pre><code>sudo hwclock --localtime --systohc</code></pre><p>重新进入windows10，可以发现时间恢复正常</p><h2 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h2><p>2.在Windows 10改（没有尝试）<br> 首先用管理员模式<a href="https://so.csdn.net/so/search?q=打开cmd&amp;spm=1001.2101.3001.7020">打开cmd</a>窗口 （提示：开始菜单里面找到“Windows 系统”文件夹 右键“命令提示符” 选择用管理员打开）</p><p>输入以下代码重启即可（此方法刚开始可能还未生效 多切换几次系统就好了）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1</span><br></pre></td></tr></table></figure><p>tips：<a href="https://blog.51cto.com/u_15767560/5628930#:~:text=%E6%AD%A3%E5%B8%B8%E5%90%8C%E6%AD%A5%E6%97%B6%E9%97%B4%E3%80%82-,%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95,TIme%20%E6%9C%8D%E5%8A%A1%E5%A4%84%E4%BA%8E%E5%90%AF%E5%8A%A8%E7%8A%B6%E6%80%81%E3%80%82&amp;text=%E5%9C%A8%E6%8E%A7%E5%88%B6%E9%9D%A2%E7%89%88-%3E%E6%97%B6%E9%92%9F,%E5%8F%AF%E6%AD%A3%E5%B8%B8%E5%90%8C%E6%AD%A5%E6%97%B6%E9%97%B4%E4%BA%86%E3%80%82">另一种Windows改的方法</a></p><p>以上是相对最快的两种方法，网上其他方法都较为繁琐，甚至有误</p><p>特摘录一个有误方法：</p><p>网上有方法说是</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit /etc/default/rcS</span><br><span class="line">utc=yes 改为 utc=no</span><br></pre></td></tr></table></figure><p>但其实并没有什么效果，因为ubuntu16.04里面根本就没有utc这一项，原因是因为16.04使用systemd启动之后，时间也改成了由timedatectl来管理，utc已经不存在了，之前更老的版本才用utc记时模式，所以需要与时俱进</p><p>原文：<a href="https://www.cnblogs.com/sakuraie/p/13341525.html">https://www.cnblogs.com/sakuraie/p/13341525.html</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>外挂标签的引入(店长)</title>
       <link href="/2023/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
       <url>/2023/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/</url>
